@@ -1,4 +1,8 @@
-! My Custom AdGuard Filter
-! Blocks annoying z-[9999] elements
+! Title: My Custom AdGuard Filter
+! Description: Blocks annoying z-[9999] elements
+! Version: 1.0
+! Last modified: 2025-08-20
+! Expires: 1 day
+
 ##.z-\[9999\]#$#display: none !important;
 ##.z-\[9999\]:remove()
