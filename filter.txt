@@ -1,0 +1,4 @@
+! My Custom AdGuard Filter
+! Blocks annoying z-[9999] elements
+##.z-\[9999\]#$#display: none !important;
+##.z-\[9999\]:remove()
